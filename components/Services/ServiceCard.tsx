@@ -2,11 +2,11 @@
 
 import { motion } from "framer-motion";
 import { fadeIn } from "@/utils/motion";
-import type { Service } from "@/constants/data";
+import type { Services } from "@/constants/data";
 import Image from "next/image";
 import { RiCustomerServiceLine } from 'react-icons/ri';
 
-type propTypes = Service['card'][0] & {
+type propTypes = Services['features'][0] & {
   index: number,
   active: string,
   handleClick: (id: string) => void

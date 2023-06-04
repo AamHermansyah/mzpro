@@ -40,13 +40,13 @@ function Hero() {
             <span className="text-red-500">MZ</span> PRO
           </motion.h1>
           <motion.div variants={textVariant(1)}>
-            <PSerifFont className="mt-4 text-xl text-gray-300">
+            <PSerifFont className="mt-4 text-xl xl:text-2xl text-gray-300">
               Menjelajahi keindahan manusia dan alam, menghadirkan keajaiban dalam setiap foto yang diambil. Berdedikasi untuk menjelajahi keindahan yang ada di sekitar kita, dari pesona manusia hingga keajaiban alam yang memukau.
             </PSerifFont>
           </motion.div>
           <motion.button
             variants={textVariant(1.1)}
-            className="mt-10 text-lg flex gap-2 items-center bg-black text-white hover:bg-white hover:text-black py-3 px-6 rounded-lg font-semibold group"
+            className="mt-10 text-lg flex gap-2 items-center border border-white bg-black text-white hover:bg-white hover:text-black hover:border-black py-3 px-6 rounded-lg font-semibold group"
           >
             Rekrut Saya
             <BsBoxArrowInDownRight
