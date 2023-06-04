@@ -30,25 +30,16 @@ function Gallery() {
         </PSerifFont>
         <Masonry
           breakpointCols={breakpoints}
-          className="flex gap-2 md:gap-4 mt-6"
+          className="flex gap-2 md:gap-2 mt-6"
         >
           {['jungle', 'river', 'people', 'man', 'wedding', 'couple', 'tree', 'night']
             .map((query, index) => (
-              <div className="border mt-2" key={index}>
-                <img
-                  src={`https://source.unsplash.com/random/${imageSizes[index]}/?${query}`}
-                  alt={query}
-                  onLoadedData={(target) => {
-                    setSmageSize({
-                      width: target.naturalWidth,
-                      height: target.naturalHeight
-                    });
-                  }}
-                  width={imageSize.width}
-                  height={imageSize.height}
-                  className="w-full object-contain"
-                />
-              </div>
+              <img
+                key={index}
+                src={`https://source.unsplash.com/random/${imageSizes[index]}/?${query}`}
+                alt={query}
+                className="w-full object-contain border mt-2"
+              />
             ))}
         </Masonry>
         <motion.button
