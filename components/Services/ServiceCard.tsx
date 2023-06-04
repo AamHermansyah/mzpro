@@ -6,13 +6,13 @@ import type { Service } from "@/constants/data";
 import Image from "next/image";
 import { RiCustomerServiceLine } from 'react-icons/ri';
 
-type propTypes = Service & {
+type propTypes = Service['card'][0] & {
   index: number,
   active: string,
   handleClick: (id: string) => void
 }
 
-const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }: propTypes) => (
+const ServiceCard = ({ id, imgUrl, title, caption, index, active, handleClick }: propTypes) => (
     <motion.div
       variants={ fadeIn('right', 'spring', index * 0.5, 0.75) }
       className={ `${ active === id 
@@ -41,7 +41,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }: propType
           </div>
 
           <p className="font-normal text-[16px] leading-[20px] text-white uppercase">
-            Enter the Metaverse
+            {caption}
           </p>
           <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
             { title }
@@ -52,4 +52,4 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }: propType
     </motion.div>
 );
 
-export default ExploreCard;
+export default ServiceCard;

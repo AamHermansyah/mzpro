@@ -34,7 +34,9 @@ const Footer = () => (
               </Link>
             </div>
           </div>
-          <p className="font-normal text-[14px] text-[#9fb2be]">Copyright © 2021 - 2022 MZ Photographer. All rights reserved.</p>
+          <p className="font-normal text-[14px] text-gray-300 text-center">
+            Copyright© MZ Photographer. All rights reserved.
+          </p>
           <div className="hidden md:flex gap-4">
             <Link href="/" rel="noopener noreferrer">
               <BsFacebook className="w-[24px] h-[24px]" />

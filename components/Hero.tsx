@@ -37,27 +37,27 @@ function Hero() {
             variants={textVariant(.7)}
             className="text-6xl lg:text-8xl font-extrabold"
           >
-            M. Zidan Fatoni
+            <span className="text-red-500">MZ</span> PRO
           </motion.h1>
           <motion.div variants={textVariant(1)}>
             <PSerifFont className="mt-4 text-xl text-gray-300">
-              Saya adalah seorang potografer berbakat yang menjelajahi keindahan manusia dan alam, menghadirkan keajaiban dalam setiap foto yang saya ambil.
+              Menjelajahi keindahan manusia dan alam, menghadirkan keajaiban dalam setiap foto yang diambil. Berdedikasi untuk menjelajahi keindahan yang ada di sekitar kita, dari pesona manusia hingga keajaiban alam yang memukau.
             </PSerifFont>
           </motion.div>
           <motion.button
             variants={textVariant(1.1)}
-            className="mt-6 text-lg flex gap-2 items-center bg-blue-primary text-white py-3 px-6 rounded-lg font-semibold group"
+            className="mt-10 text-lg flex gap-2 items-center bg-black text-white hover:bg-white hover:text-black py-3 px-6 rounded-lg font-semibold group"
           >
             Rekrut Saya
             <BsBoxArrowInDownRight
               fontSize={22}
-              className="group-hover:scale-105 transition"
+              className="group-hover:scale-105"
             />
           </motion.button>
         </div>
         <motion.div
           variants={fadeIn('bottom', 'spring', 0.5, 0.75)}
-          className="my-10 sm:my-0 relative md:flex-1 w-full aspect-video md:aspect-square overflow-hidden"
+          className="my-10 sm:my-0 relative md:flex-1 w-full aspect-square overflow-hidden"
         >
           <Image
             src="https://source.unsplash.com/600x600/?photographer"
