@@ -8,11 +8,11 @@ function Solutions() {
   return (
     <section id="solutions" className="p-4 sm:p-10 md:p-20">
       <div className="max-w-[1500px] mx-auto">
-        <div className="mt-10 sm:mt-0 h-[500px] flex flex-col items-center justify-center">
+        <div className="mt-10 sm:mt-0 h-[500px] flex flex-col items-start justify-center">
           <h1 className="text-7xl font-bold leading-[75px] text-white">
-            Terkesan dengan karya karya kami?
+            Terkesan dengan karya kami?
           </h1>
-          <button className="self-start mt-10 text-lg flex gap-2 items-center border border-white text-white hover:bg-white hover:text-black hover:border-black py-3 px-6 rounded-lg font-semibold group">
+          <button className="mt-10 text-lg flex gap-2 items-center border border-white text-white hover:bg-white hover:text-black hover:border-black py-3 px-6 rounded-lg font-semibold group">
             Hubungi Kami
             <AiOutlinePhone fontSize={24} />
           </button>
@@ -32,7 +32,7 @@ function Solutions() {
             </PSerifFont>
           </div>
           <div className="flex-[0.75] w-full max-w-[370xpx] px-4 sm:px-0">
-            <h1 className="text-4xl sm:text-5xl font-semibold sm:leading-[65px]">
+            <h1 className="text-white text-4xl sm:text-5xl font-semibold sm:leading-[65px]">
               Solusi yang kamu <br /> butuhkan
             </h1>
             <ul className="mt-4 sm:mt-10">

@@ -9,7 +9,7 @@ function WhyChooseUs() {
     <section id="solutions" className="mt-10 sm:mt-0">
       <div className="max-w-[1500px] mx-auto px-4 sm:px-10 md:px-20">
         <div className="relative text-center">
-          <h1 className="text-xl text-gray-300 font-semibold py-2 uppercase tracking-[0.5rem]">
+          <h1 className="text-xl text-white font-semibold py-2 uppercase tracking-[0.5rem]">
             Kenapa memilih kami
           </h1>
           <PSerifFont className="text-xl xl:text-2xl pb-4">

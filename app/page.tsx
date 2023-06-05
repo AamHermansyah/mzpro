@@ -1,5 +1,6 @@
 'use client';
 
+import About from "@/components/About";
 import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/Hero";
@@ -20,17 +21,20 @@ export default function Home() {
       <Solutions />
       <WhyChooseUs />
       <Testimonials />
-      <div className="max-w-[1500px] mt-20 mx-auto p-4 sm:p-10 md:p-20 bg-white">
-        <div className="mt-10 sm:mt-0 py-20 flex flex-col items-center justify-center">
-          <h1 className="text-7xl font-bold leading-[75px] text-black">
-            Sudah yakin dengan layanan kami?
-          </h1>
-          <button className="self-start mt-10 text-lg flex gap-2 items-center border border-black text-black hover:bg-black hover:text-white hover:border-black py-3 px-6 rounded-lg font-semibold group">
-            Hubungi Kami
-            <AiOutlinePhone fontSize={24} />
-          </button>
+      <div className="bg-white">
+        <div className="max-w-[1500px] mt-20 mx-auto p-4 sm:p-10 md:p-20">
+          <div className="py-20 flex flex-col items-start justify-center">
+            <h1 className="text-7xl font-bold leading-[75px] text-black">
+              Sudah yakin dengan layanan kami?
+            </h1>
+            <button className="mt-10 text-lg flex gap-2 items-center border border-black text-black hover:bg-black hover:text-white hover:border-black py-3 px-6 rounded-lg font-semibold group">
+              Hubungi Kami
+              <AiOutlinePhone fontSize={24} />
+            </button>
+          </div>
         </div>
       </div>
+      <About />
       <Footer />
     </>
   )

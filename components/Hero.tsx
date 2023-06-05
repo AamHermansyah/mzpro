@@ -15,7 +15,7 @@ function Hero() {
         className="min-h-[600px] max-w-[1500px] mx-auto flex gap-4 flex-col md:flex-row items-center justify-center py-4 sm:py-10 md:py-20"
       >
         <div
-          className="absolute top-[20px] right-[50px] w-[500px] aspect-square bg-sky-500"
+          className="hidden sm:block absolute top-[20px] right-[50px] w-[500px] aspect-square bg-sky-500"
           style={{ filter: 'blur(300px)'}}
         />
         <div className="absolute inset-0 -z-[1]">

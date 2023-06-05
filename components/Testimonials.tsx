@@ -25,7 +25,7 @@ function Testimonials() {
   return (
     <section id="testimonials" className="p-4 mt-20">
       <div>
-        <h1 className="text-3xl sm:text-5xl uppercase font-bold tracking-[0.5rem] text-center">
+        <h1 className="text-white text-3xl sm:text-5xl uppercase font-bold tracking-[0.5rem] text-center">
           Testimonial
         </h1>
         <PSerifFont className="text-2xl xl:text-3xl font-semibold text-center sm:mt-4">

@@ -25,7 +25,7 @@ const Services = () => {
         viewport={{ once: true, amount: 0.25 }}
         className="mt-20 max-w-[1500px] mx-auto"
       >
-        <h1 className="text-3xl sm:text-5xl uppercase font-bold tracking-[0.5rem] text-center">
+        <h1 className="text-white text-3xl sm:text-5xl uppercase font-bold tracking-[0.5rem] text-center">
           Layanan
         </h1>
         <PSerifFont className="text-center text-xl xl:text-2xl py-2 sm:py-4 border-b-2">
