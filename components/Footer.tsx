@@ -12,7 +12,7 @@ const Footer = () => (
         variants={ footerVariants }
         initial="hidden"
         whileInView="show"
-        className="mt-10 py-4 relative"
+        className="pb-4 relative"
     >
       <div className="flex flex-col">
         <div className="mb-[20px] h-[2px] bg-white opacity-10"/>

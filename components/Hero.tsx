@@ -48,7 +48,7 @@ function Hero() {
             variants={textVariant(1.1)}
             className="mt-10 text-lg flex gap-2 items-center border border-white bg-black text-white hover:bg-white hover:text-black hover:border-black py-3 px-6 rounded-lg font-semibold group"
           >
-            Rekrut Saya
+            Rekrut
             <BsBoxArrowInDownRight
               fontSize={22}
               className="group-hover:scale-105"

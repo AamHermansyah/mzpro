@@ -11,14 +11,9 @@ const breakpoints = {
   500: 1
 }
 
-const imageSizes = ['300x300', '600x900', '1600x900', '400x500', '900x1600', '550x700', '500x500', '300x400']
+const imageSizes = ['300x300', '600x900', '1600x900', '400x500', '550x700', '500x500', '900x1600', '300x400'];
 
 function Gallery() {
-  const [imageSize, setSmageSize] = useState({
-    width: 100,
-    height: 100
-   });
-
   return (
     <section id="gallery" className="p-4 mt-10 sm:mt-0">
       <div>
@@ -32,7 +27,7 @@ function Gallery() {
           breakpointCols={breakpoints}
           className="flex gap-2 md:gap-2 mt-6"
         >
-          {['jungle', 'river', 'people', 'man', 'wedding', 'couple', 'tree', 'night']
+          {['jungle', 'river', 'people', 'man', 'wedding', 'lake', 'tree', 'rain']
             .map((query, index) => (
               <img
                 key={index}
@@ -44,7 +39,7 @@ function Gallery() {
         </Masonry>
         <motion.button
           variants={textVariant(1.1)}
-          className="mx-auto mt-10 text-lg flex gap-2 items-center border border-white bg-black text-white hover:border-black hover:bg-white hover:text-black py-3 px-6 rounded-lg font-semibold group"
+          className="mx-auto mt-10 text-lg flex gap-2 items-center border border-white text-white hover:border-black hover:bg-white hover:text-black py-3 px-6 rounded-lg font-semibold group"
         >
           Lebih Banyak
         </motion.button>

@@ -13,12 +13,17 @@ const Services = () => {
 
   return (
     <section id="services" className="p-4 sm:p-10 md:p-20 mt-10">
+      <div className="h-[500px] flex items-center justify-center">
+        <h1 className="text-7xl font-bold leading-[75px] bg-gradient-to-r from-white to-sky-600 text-transparent bg-clip-text">
+          Butuh layanan potografi? Disini semuanya ada!
+        </h1>
+      </div>
       <motion.div
         variants={staggerContainer()}
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.25 }}
-        className="max-w-[1500px] mx-auto"
+        className="mt-20 max-w-[1500px] mx-auto"
       >
         <h1 className="text-3xl sm:text-5xl uppercase font-bold tracking-[0.5rem] text-center">
           Layanan

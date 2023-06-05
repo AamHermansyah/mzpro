@@ -6,7 +6,9 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services/Services";
 import Solutions from "@/components/Solutions";
+import Testimonials from "@/components/Testimonials";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import { AiOutlinePhone } from "react-icons/ai";
 
 export default function Home() {
   return (
@@ -17,6 +19,18 @@ export default function Home() {
       <Gallery />
       <Solutions />
       <WhyChooseUs />
+      <Testimonials />
+      <div className="max-w-[1500px] mt-20 mx-auto p-4 sm:p-10 md:p-20 bg-white">
+        <div className="mt-10 sm:mt-0 py-20 flex flex-col items-center justify-center">
+          <h1 className="text-7xl font-bold leading-[75px] text-black">
+            Sudah yakin dengan layanan kami?
+          </h1>
+          <button className="self-start mt-10 text-lg flex gap-2 items-center border border-black text-black hover:bg-black hover:text-white hover:border-black py-3 px-6 rounded-lg font-semibold group">
+            Hubungi Kami
+            <AiOutlinePhone fontSize={24} />
+          </button>
+        </div>
+      </div>
       <Footer />
     </>
   )
