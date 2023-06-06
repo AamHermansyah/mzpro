@@ -17,7 +17,7 @@ export const services: Services = {
   features: [
     {
       id: 'service-1',
-      imgUrl: 'https://source.unsplash.com/900x1600/?wedding',
+      imgUrl: 'https://drive.google.com/uc?export=view&id=1Q1GakbLs2t6p4f-ivoPtOtRlfbKRuLON',
       title: 'Wedding',
       caption: 'Kenang momen indah berdua'
     },

@@ -133,4 +133,9 @@
   #navbar input[type="checkbox"]:checked ~ .menu-items {
     translate: 0;
   }
+  .inner-shadow-bg {
+    -webkit-box-shadow: inset 0px 0px 78px 89px rgba(3,7,17,1);
+    -moz-box-shadow: inset 0px 0px 78px 89px rgba(3,7,17,1);
+    box-shadow: inset 0px 0px 78px 89px rgba(3,7,17,1);
+  }
 }

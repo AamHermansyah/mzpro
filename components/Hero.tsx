@@ -59,8 +59,9 @@ function Hero() {
           variants={fadeIn('bottom', 'spring', 0.5, 0.75)}
           className="my-10 sm:my-0 relative md:flex-1 w-full aspect-square overflow-hidden"
         >
+          {/* <img alt="" jsaction="load:G7tQM;error:G7tQM" class="l-u-Ab-zb-Ua" data-drive-wiz-load-handling="" src="https://lh3.google.com/u/0/d/1zK2U0mLEwwV6o2bYnmmibCcwsXYdR00R=w200-h190-p-k-nu-iv1"></img> */}
           <Image
-            src="https://source.unsplash.com/600x600/?photographer"
+            src="https://drive.google.com/uc?export=view&id=14LGbSVl2zdhPmtB2vgz8OBHiH0Bjqd59"
             alt="hero image"
             fill={true}
             className="object-cover object-top img-clip-path-1"
@@ -76,7 +77,7 @@ function Hero() {
             }}
           />
           <Image
-            src="https://source.unsplash.com/600x600/?camera"
+            src="https://drive.google.com/uc?export=view&id=1eSVZ6cIWWKaJ83y9CG0Hq5vqtIQUIkIl"
             alt="hero image"
             fill={true}
             className="object-cover object-center img-clip-path-2"

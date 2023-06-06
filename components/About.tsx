@@ -4,10 +4,10 @@ import React from 'react'
 function About() {
   return (
     <section id="about" className="my-10">
-      <div className="max-w-[1500px] mx-auto p-4 sm:p-10 md:p-20">
+      <div className="max-w-[1500px] mx-auto sm:p-10 md:p-20">
         <div className="relative rounded-t-full min-h-[600px] sm:aspect-square lg:aspect-[3/2] overflow-hidden">
           <Image
-            src={`https://source.unsplash.com/random/1000x1000/?woods`}
+            src={`https://drive.google.com/uc?export=view&id=1Cx7D-JtSg87FxUsM71w7JoLCiKJZLYm3`}
             alt='about us profile'
             fill={true}
             className="object-cover"

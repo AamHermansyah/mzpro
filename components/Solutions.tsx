@@ -2,26 +2,16 @@ import React from 'react'
 import PSerifFont from './PSerifFont'
 import { services, solutions } from '@/constants/data'
 import Image from 'next/image'
-import { AiOutlinePhone } from 'react-icons/ai'
 
 function Solutions() {
   return (
     <section id="solutions" className="p-4 sm:p-10 md:p-20">
       <div className="max-w-[1500px] mx-auto">
-        <div className="mt-10 sm:mt-0 h-[500px] flex flex-col items-start justify-center">
-          <h1 className="text-7xl font-bold leading-[75px] text-white">
-            Terkesan dengan karya kami?
-          </h1>
-          <button className="mt-10 text-lg flex gap-2 items-center border border-white text-white hover:bg-white hover:text-black hover:border-black py-3 px-6 rounded-lg font-semibold group">
-            Hubungi Kami
-            <AiOutlinePhone fontSize={24} />
-          </button>
-        </div>
         <div className="mt-20 w-full flex flex-col lg:flex-row justify-between gap-10 md:gap-20">
           <div className="flex-1">
-            <div className="mt-6 relative aspect-square rounded-lg">
+            <div className="mt-6 relative aspect-square rounded-2xl overflow-hidden">
               <Image
-                src="https://source.unsplash.com/1600x900/?couple"
+                src={`https://drive.google.com/uc?export=view&id=1JQoyY9JhwEDw7Xjzc_Nm22Q96dxEHTGh`}
                 alt="special wedding"
                 fill={true}
                 className="object-cover"

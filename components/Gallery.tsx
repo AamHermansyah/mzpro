@@ -27,12 +27,12 @@ function Gallery() {
           breakpointCols={breakpoints}
           className="flex gap-2 md:gap-2 mt-6"
         >
-          {['jungle', 'river', 'people', 'man', 'wedding', 'lake', 'tree', 'rain']
-            .map((query, index) => (
+          {['1nWCsCcO5w2GI1mL7K5YU9q4VZxAcreJU', '1U0AdKG-uJDTS4K5E_W1ByZVKfxg0WajQ', '1N6Y5RyOiXmB-t40SyMnMmAIgEPi-gsTJ', '1I9MYPu9eNofiJInQ7Gzdc0MLo2iX0wxl', '1v7a5AbLYCpujNmRfNSoR_TE13obj9GS9', '1gofHwSSinVMdzTtozH7ZbWbZKVQWzAOf', '1gwNOCYDUwxKEdgCa6GZy5lcshzEiXudQ', '1EUiVn17sFqvf3-55v7lYOQwWcvvkDs3b']
+            .map((id, index) => (
               <img
                 key={index}
-                src={`https://source.unsplash.com/random/${imageSizes[index]}/?${query}`}
-                alt={query}
+                src={`https://drive.google.com/uc?export=view&id=${id}`}
+                alt={id}
                 className="w-full object-contain border mt-2"
               />
             ))}
